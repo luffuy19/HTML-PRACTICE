@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+    background-color: rgb(8, 8, 8);
+  }
+  .image{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    padding: 20px 20px;
+  }
+  .image img{
+    height: 40px;
+    width: 40px;
+  }
+  main{
+    width: 100%;
+    height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .courses{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+    width: 80%;
+    height: 70vh;
+    padding: 20px;
+  }
+  .course1,.course2,.course3,.course4{
+    height: 400px;
+    width: 240px;
+    border: 2px solid white;
+    background-color: black;
+  }
+  .courses .course1,.course2,.course3,.course4{
+    color: aliceblue;
+    padding: 5px ;
+    text-align: center;
+    cursor: pointer;
+  }
+  .course1:hover{
+    border: 6px solid rgb(228, 222, 222);
+    
+  }
+  .course2:hover{
+    border: 6px solid rgb(228, 222, 222);
+    
+  }
+  .course3:hover{
+    border: 6px solid rgb(228, 222, 222);
+    
+  }
+  .course4:hover{
+    border: 6px solid rgb(228, 222, 222);
+    
+  }
+  h1{
+    color: crimson;
+    font-size: larger;
+    gap: 0.4rem;
+  }
